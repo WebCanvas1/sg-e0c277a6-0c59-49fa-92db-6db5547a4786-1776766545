@@ -1,6 +1,6 @@
 ---
 title: Hero Section with Contact Form
-status: in_progress
+status: done
 priority: urgent
 type: feature
 tags: [hero, contact-form, design-system]
