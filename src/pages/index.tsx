@@ -1,4 +1,5 @@
 import { SEO } from "@/components/SEO";
+import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Services } from "@/components/Services";
 import { WhyUs } from "@/components/WhyUs";
@@ -15,6 +16,7 @@ export default function Home() {
         description="24/7 emergency electrical services in Mill Park. 5.0-star rated, licensed & insured. Residential & commercial electrical repairs, installations & safety inspections."
         image="/og-image.png"
       />
+      <Header />
       <main>
         <Hero />
         <Services />
