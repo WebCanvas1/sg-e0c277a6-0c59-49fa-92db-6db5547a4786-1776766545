@@ -2,6 +2,10 @@ import { SEO } from "@/components/SEO";
 import { Hero } from "@/components/Hero";
 import { Services } from "@/components/Services";
 import { WhyUs } from "@/components/WhyUs";
+import { Gallery } from "@/components/Gallery";
+import { FAQ } from "@/components/FAQ";
+import { FinalCTA } from "@/components/FinalCTA";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -15,8 +19,11 @@ export default function Home() {
         <Hero />
         <Services />
         <WhyUs />
-        {/* Gallery, FAQ, and Final CTA sections will be added in task 3 */}
+        <Gallery />
+        <FAQ />
+        <FinalCTA />
       </main>
+      <Footer />
     </>
   );
 }
