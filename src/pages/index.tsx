@@ -1,12 +1,18 @@
-import React from 'react'
+import { SEO } from "@/components/SEO";
+import { Hero } from "@/components/Hero";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background flex items-center justify-center">
-      <div className="text-center space-y-4">
-        <h1 className="text-4xl font-bold text-foreground">Hello World</h1>
-        <p className="text-lg text-muted-foreground">This is going to be your softgen app, start by describing your project.</p>
-      </div>
-    </main>
-  )
+    <>
+      <SEO 
+        title="Micucci Electrical Services - Licensed Electrician in Mill Park, VIC"
+        description="24/7 emergency electrical services in Mill Park. 5.0-star rated, licensed & insured. Residential & commercial electrical repairs, installations & safety inspections."
+        image="/og-image.png"
+      />
+      <main>
+        <Hero />
+        {/* Services, Why Us, Gallery, FAQ, and Final CTA sections will be added in next tasks */}
+      </main>
+    </>
+  );
 }
